@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #96cca1;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+}
+
+nav img {
+    width: 15%;
+    height: auto;
+    position: relative;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: rgba(2, 75, 24, 0.856);
+    
+}
+
+main {
+    margin: 0;
+}
+
+.leftcontainer {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.rightcontainer {
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding-top: 150px;
+}
+
+
+.aboutme {
+    margin-left: 8%;
+    margin-top: 0%;    
+}
+
+.aboutme h1 {
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.aboutme h1 {
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.aboutme p {
+    color:#000;
+    line-height: 22px;
+}
+
+.aboutme ol li {
+    color:#000;
+    line-height: 22px;
+    padding: 5px;
+}
+
+footer {
+    font-size: 15px;
+    color: rgb(92, 90, 90);
+    font-weight: bold;
+    float: none;
+    position:fixed;
+    bottom: 5%;
+    left: 5%;
+ }
+
+.aboutmeimg {
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+.myhometown {
+    padding-top: 195px;
+}
+
+table, th, td {
+    border: none;
+  }
+  
+  th {
+    padding: 10px;
+    text-align: left;
+  }
+
+  td {
+    padding: 10px;
+  }
